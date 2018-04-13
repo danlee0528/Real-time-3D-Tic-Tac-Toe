@@ -1,0 +1,196 @@
+*{ font-family: sans-serif;}
+
+body{
+	/* border: 1px solid black; */
+}
+
+#player_id, #player_pw{
+	border-radius: 10px;
+	border-color: grey;
+	border-width: 2px;
+	border-style: solid;
+	height: 30px;
+	margin-top: 10px;
+}
+
+#submitbtn, #registerbtn{
+	margin-top: 40px;
+	border-radius: 50px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	height: 30px;
+	font-size: 20px;
+}
+
+form{
+	position:fixed;
+	top: 20%;
+	border-radius: 50px;
+	/* border: thin black solid; */
+	padding-top: 30px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 40%;
+	margin-right: 40%;
+	background-color: #f0f9b1;
+	text-align: center;
+}
+
+#registration_form{	top: 10%;}
+
+/* Gamepage html styles*/
+#player_content_container, #game_content_container, #chat_content_container{
+	/* border: medium red solid; */
+	display: block;
+	position: fixed;
+}
+
+#player_content_container{
+	margin-right: 900px;
+	width: 360px;
+	height: 120px;
+	padding-left: 30px;
+	background: linear-gradient(to right, #1c1c1c, #383838);
+	border-radius: 10px;
+}
+
+#chat_content_container{
+	margin-right: 900px;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 130px;
+	width: 370px;
+	background:	linear-gradient(to right, #051a27, #9bcae8);
+}
+
+#chat_container{
+	width: auto;
+	height: 395px;
+	padding-left: 10px;
+	color: black;
+	border-radius: 10px;
+	overflow:auto;
+	scroll-behavior: smooth;
+	background:	linear-gradient(to bottom, #cdf0ee, white);
+}
+
+#game_content_container{
+	margin-left: 400px;
+	padding: 10px;
+	width: 920px;
+	background: linear-gradient(to right, #1c1c1c, #383838);
+	border-radius: 10px;
+}
+
+#game_room_container{
+	border-top: thin white solid;
+	top:10px;
+	width: auto;
+	height:500px;
+	background-color: inherit;
+}
+
+#table_layer_control_panel_container{
+	position: absolute;
+	border: white thin solid;
+	margin-top: 20px;
+	margin-left: 10px;
+	width: 175px;
+	height: 470px;
+}
+
+#game_conclusion_container{
+	position: absolute;
+	border: white thin solid;
+	margin-top: 20px;
+	margin-right: 10px;
+	right:0;
+	width: 720px;
+	height: 470px;
+	font-size: 20px;
+	color: white;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+table, td, tr{
+	border: white solid medium;
+	border-collapse: collapse;
+	padding: 20px;
+}
+
+#table_top td:hover, #table_mid td:hover, #table_bot td:hover{
+	background-color: #d8f5ef;
+}
+
+#table_top, #table_mid, #table_bot{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#handle, #message, #send{
+	margin-top: 5px;
+	font-size: 11px;
+	vertical-align: middle;
+	height: 20px;
+}
+
+#send{
+	font-size: 20px;
+	height: auto;
+	color: black;
+	background-color: #3695b0;
+	border-radius: 5px;
+	border-style: none;
+}
+
+#logoutbtn{
+	font-size: 50px;
+	width: 390px;
+	margin-top: 585px;
+	background-color: #FFC300 ;
+	border-radius: 10px;
+}
+
+#logoutbtn:hover{
+	background-color: #00061a;
+	color:white;
+}
+
+.info_header{
+	color: white;
+	display: inline-block;
+	font-size: 50px;
+}
+
+#player_stats{
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: 20px;
+	color: yellow;
+	display: inline-block;
+}
+
+#user_count_display{
+	padding-left: 10px;
+	color: yellow;
+	display: inline-block;
+}
+
+#start_gamebtn{
+	float:right;
+	height: 100px;
+	margin-top: 10px;
+	margin-right: 5px;
+	font-size: 60px;
+	border-radius: 30px;
+	background-color: #fdf545;
+	border-style: none;
+}
+
+#start_gamebtn:hover, #start_gamebtn:disabled{
+	background-color: black;
+	color: white;
+}
