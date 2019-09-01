@@ -2,6 +2,8 @@
 A real-time websockets application integrated with MongoDB (mongoose) and Node.Js
 
 # Instruction
+In "server.js", please enter your mongoDB url and password.
+
  1. A new user must create a new id on the registration page 
  2. Log into your new account
  3. Only 2 players can play one game at a time
