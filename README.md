@@ -20,3 +20,6 @@ In "server.js", please enter your mongoDB url and password.
  7. Otherwise, have a fun !
 
 <img src="https://github.com/danlee0528/Real-time-3D-Tic-Tac-Toe-Web-Application/blob/master/Gameplay_preview.JPG" width="500">
+
+# Further Discussion
+ - To support asynchronous access to the database or login, a new feature such as "online" or "offline" can be possibly assigned to each user 
